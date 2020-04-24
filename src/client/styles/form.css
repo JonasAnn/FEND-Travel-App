@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400;1,700&display=swap");
+
+#form-section{
+    background-image:linear-gradient(rgba(0, 20, 0, 0.7), rgba(0, 10, 0, 0.7)), url('../views/imgs/bg.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+    padding: 8em 0 5em 0;
+    background-size: cover;
+    height: 70vh;
+    
+} 
+.form-holder{
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    padding: 1em 2em;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 10px 8px -8px rgba(209,190,209,1);
+    -moz-box-shadow: 8px 10px 8px -8px rgba(209,190,209,1);
+    box-shadow: 8px 10px 8px -8px rgba(209,190,209,1);
+}
+.form-div{
+    display: flex;
+    justify-content: space-between;
+}
+.form-image{
+    width: 35%;
+    height: auto;
+   
+}
+.form{
+    width: 60%;
+ 
+}
+.btn-submit{
+    background-image: linear-gradient(to right,#1f4037,#99f2c8); 
+    border: 1px solid white;
+    color: white;
+    padding: 0.5em 5em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-image: linear-gradient(to right,#fdc830, #f37335);  
+    transition: color 0.5s ease-out;
+
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 0.5em 0 0.5em 0.5em;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid #d3d3d3;
+    width: 90%;
+    margin: 0 0 1em 0;
+} 
+
+.label-text{
+    padding: 0 0 0.5em 0;
+    text-align: left;
+    margin: 0;
+}
+               

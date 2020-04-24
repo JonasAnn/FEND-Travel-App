@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400;1,700&display=swap");
+
+#result-section{
+    background-image:url('../views/imgs/bg.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+    padding: 7em 0 5em 0;
+    background-size: cover;
+    height: 70vh;
+    
+}
+.result-holder{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    padding: 3em 2em;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 10px 8px -8px rgba(209,190,209,1);
+    -moz-box-shadow: 8px 10px 8px -8px rgba(209,190,209,1);
+    box-shadow: 8px 10px 8px -8px rgba(209,190,209,1);
+}
+.result-div{
+    display: flex;
+    justify-content: space-between;
+}
+.result-image{
+    width: 35%;
+    height: auto;
+       
+}
+
+.result{
+    width: 60%;
+   
+}
+
+.btn-delete{
+    background-image: linear-gradient(to right,#fdc830, #f37335); 
+    border: 1px solid #d3d3d3;
+    color: #d3d3d3;
+    padding: 0.5em 3em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 0.5em 0 0 0;
+    cursor: pointer;
+        
+}
+
+.btn-delete:hover{
+    background-image: linear-gradient(to right,#1f4037,#99f2c8); 
+    transition: color 0.5s ease-out;
+
+}
+.btn-back{
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5em 3em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em 0 0 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-back:hover{
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    transition: color 0.5s ease-out;
+}
+
+.result p{
+    font-size: 1.5em;
+}
+
+.result span{
+    background-color: rgb(106, 255, 47);
+}

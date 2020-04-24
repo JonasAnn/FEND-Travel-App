@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap");
+
+footer{
+    background-color: black;
+   display: flex;
+   justify-content: space-between;
+    height: 15vh;
+    font-family: 'Bitter', serif;
+    color: #fff;
+    padding: 1em 1em;
+    
+     
+} 
+.footer-text{
+    width: 60%;
+  
+}
+
+.social{
+    width: 40%;
+    text-align: right;
+}
+.fa{
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: .5em 0 0 0;
+}
+.fa-facebook-square:hover{
+    color: rgb(27, 27, 226);
+    transition: color 0.4s ease;
+}
+
+.fa-twitter-square:hover{
+    color: rgb(120, 157, 224);
+    transition: color 0.4s ease;
+}
+
+.fa-linkedin-square:hover{
+    color: rgb(62, 218, 166);
+    transition: color 0.4s ease;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Time to Travel | Travel Planner App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/root.css">
+  <link rel="stylesheet" href="../styles/form.css">
+  <link rel="stylesheet" href="../styles/result.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo-div">
+            <img src="./imgs/map.png" alt="logo" class="logo">
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#home">About</a></li>
+                <li><a href="#form-section">Plan your Trip</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- home-section -->
+        <section id="home">
+            <div class="home-div">
+            <h1>Let's Plan Your Trip</h1>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error
+                it voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inventore 
+                veritatis et quasi architecto beatae vitae dicta sunt.
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                aut fugit, sed quia consequuntur magni aut odit
+                dolores eos qui ratione voluptatem sequi nesciunt. 
+            </p>
+            <button type="button" class="btn">Add Trip</button>
+        </div>
+        </section>
+        <!-- form-section -->
+        <section id="form-section">
+            <div class="form-holder">
+                <h1>Plan Your Trip</h1>
+                <div class="form-div">
+                <div class="form-image">
+                    <img src="./imgs/traveller.png" alt="traveller" >
+                </div>
+                <div class="form">
+                    <form>
+                        <label for="location">
+                        <input type="text" id="location" name="location" placeholder="Going from..">
+                        <label for="destination">
+                        <input type="text" id="destination" name="destination" placeholder="Leaving to...">
+                        <label for="date" > <p class="label-text">Departing 0n...</p>
+                            <input type="date" id="date" name="date" >
+                        </label>
+                        <input type="submit" value="Submit" class="btn-submit">
+                      </form>
+                      
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- result-section -->
+        <section id="result-section">
+            <div class="result-holder">
+                <div class="result-div">
+                <div class="result-image">
+                    <img src="./imgs/inbound.png" alt="planet" >
+                </div>
+                <div class="result">
+                    <p>You are going to:<span id="destination"></span></p>
+                    <p>Departing on:<span id="date-departure"></span></p>
+                    <p>Expect Weather to be:
+                        <span id="weather"></span>
+                        <span id="temperature"></span>
+                    </p>
+                    <button type="button" class="btn-delete">Delete</button>
+                    <button type="button" class="btn-back"><a href="#home">
+                        Add More Trips
+                    </a></button>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-text">
+           <p class="email">Email: duumy@gtmail.com</p>
+            <p class="tel">Tel: 098-864-643-786</p>
+        </div>
+        <div class="social">
+         <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>   
+          <a href="#" ><i class="fa fa-twitter-square" aria-hidden="true"></a></i>       
+          <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>   
+               </div>
+    </footer>
+ </body>
+
+ </html>   
+
