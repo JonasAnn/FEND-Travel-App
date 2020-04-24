@@ -46,10 +46,21 @@
     border-radius: 5em;
     margin: 1em 0 0 0;
     cursor: pointer;
-  }
+ }
 
 .btn:hover{
        background-image: linear-gradient(to right,#fdc830, #f37335); 
         transition: color 0.5s ease-out;
     
     }
+
+    @media only screen and (max-width: 768px) {
+        #home{
+            padding: 10em 0 5em 0;
+            height: 50vh;
+             
+        } 
+        .home-div{
+            width: 80%;
+        }
+      } 

@@ -26,17 +26,39 @@ footer{
     margin: 0 1em 0 0;
     padding: .5em 0 0 0;
 }
-.fa-facebook-square:hover{
+.fa-facebook-square:hover,
+.fa-facebook-square:active{
     color: rgb(27, 27, 226);
     transition: color 0.4s ease;
 }
 
-.fa-twitter-square:hover{
+.fa-twitter-square:hover,
+.fa-twitter-square:active{
     color: rgb(120, 157, 224);
     transition: color 0.4s ease;
 }
 
-.fa-linkedin-square:hover{
+.fa-linkedin-square:hover,
+.fa-linkedin-square:active{
     color: rgb(62, 218, 166);
     transition: color 0.4s ease;
 }
+
+@media only screen and (max-width: 768px) {
+    footer{
+        height: 10vh;
+    }
+    .footer-text{
+        width: 50%;
+        font-size: 0.9em;
+    }
+    .social{
+        width: 50%;
+    
+  
+    }
+    .fa{
+        font-size: 2em;
+        margin: 0 0.5em 0 0;
+    }
+  }                

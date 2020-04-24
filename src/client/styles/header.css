@@ -21,12 +21,13 @@ header{
 .navbar{  
     width: 60%;
     position: relative;
+ 
 }
 
 .navbar-list{
     position: absolute;
     right: 0;
-   margin: 0.5em 0 0 0;
+    margin: 0.5em 0 0 0;
 }
 
 .navbar-list li{
@@ -35,4 +36,21 @@ header{
     padding: 0 2.5em;
 }
 
+@media only screen and (max-width: 768px) {
+    header{
+     font-size: 1em;
+    }
+    
+    .logo-div{
+        width: 10%;
+    }
+    
+    .navbar{  
+        width: 80%;
+   }
+       
+    .navbar-list li{
+         padding: 0 1.5em;
+    }
+  } 
 
